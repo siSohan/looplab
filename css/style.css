@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+.navbar {
+  border-bottom: 3px solid #008fd6bd;
+  opacity: 0.8;
+}
+.section-home {
+  background: url("../img/home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.login-form {
+  opacity: 0.8;
+}
